@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -59,7 +59,7 @@
                                     </mask>
                                 </variation>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGU-hh-XWC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGU-hh-XWC">
                                 <rect key="frame" x="20" y="30" width="350" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="1gl-tf-rw3"/>
@@ -93,14 +93,18 @@
                             <constraint firstAttribute="bottomMargin" secondItem="76Y-5e-d0z" secondAttribute="bottom" constant="-7" id="5f5-gi-Yad"/>
                             <constraint firstItem="QcY-U2-oyN" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="76" id="8Aw-0E-9mH"/>
                             <constraint firstItem="jV3-eO-Wdv" firstAttribute="top" secondItem="p8b-2p-yVX" secondAttribute="bottom" constant="16" id="Bs8-GQ-Xr8"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vGU-hh-XWC" secondAttribute="bottom" constant="406" id="CUS-Xk-wYt"/>
                             <constraint firstItem="vGU-hh-XWC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="81" id="DYp-Ur-j0X"/>
                             <constraint firstItem="jV3-eO-Wdv" firstAttribute="leading" secondItem="p8b-2p-yVX" secondAttribute="leading" id="EDL-fn-Vbv"/>
+                            <constraint firstItem="vGU-hh-XWC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="H7a-ma-5v1"/>
                             <constraint firstItem="vGU-hh-XWC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="9" id="L5D-Rh-dFX"/>
                             <constraint firstItem="jV3-eO-Wdv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="QhG-55-dEc"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jV3-eO-Wdv" secondAttribute="bottom" constant="15" id="Tvx-Co-Kem"/>
                             <constraint firstAttribute="trailingMargin" secondItem="76Y-5e-d0z" secondAttribute="trailing" constant="-19" id="Tz5-J2-ul0"/>
                             <constraint firstItem="QcY-U2-oyN" firstAttribute="centerX" secondItem="vGU-hh-XWC" secondAttribute="centerX" id="a2A-4b-VR7"/>
                             <constraint firstItem="QcY-U2-oyN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="25" id="hMn-iN-Qhr"/>
+                            <constraint firstItem="vGU-hh-XWC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="n3O-op-KQQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vGU-hh-XWC" secondAttribute="trailing" constant="28" id="o37-Ef-vrt"/>
                             <constraint firstItem="76Y-5e-d0z" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="-9" id="oAg-Zj-rqG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jV3-eO-Wdv" secondAttribute="trailing" constant="-2" id="v7N-Cm-PB2"/>
                         </constraints>

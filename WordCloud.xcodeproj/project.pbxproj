@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3237F7F81AB85F7F00A1D330 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3237F7FA1AB85F7F00A1D330 /* icon.png */; };
+		3237F7FB1AB85F8700A1D330 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3237F7FD1AB85F8700A1D330 /* bg.jpg */; };
 		32C9367A1AAA58AB0071FB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C936791AAA58AB0071FB94 /* AppDelegate.swift */; };
 		32C9367C1AAA58AB0071FB94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9367B1AAA58AB0071FB94 /* ViewController.swift */; };
 		32C9367F1AAA58AB0071FB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C9367D1AAA58AB0071FB94 /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		32C936901AAA58AB0071FB94 /* WordCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C9368F1AAA58AB0071FB94 /* WordCloudTests.swift */; };
 		FB13552A1AB4F9750096777F /* giffffr.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB1355281AB4F9750096777F /* giffffr.gif */; };
 		FB13552B1AB4F9750096777F /* SongGuessLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1355291AB4F9750096777F /* SongGuessLogo.png */; };
-		FB13552D1AB4FB820096777F /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB13552C1AB4FB820096777F /* bg.jpg */; };
-		FB13552F1AB500670096777F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB13552E1AB500670096777F /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3237F7F91AB85F7F00A1D330 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/icon.png; sourceTree = "<group>"; };
+		3237F7FC1AB85F8700A1D330 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/bg.jpg; sourceTree = "<group>"; };
 		32C936741AAA58AB0071FB94 /* WordCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C936781AAA58AB0071FB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C936791AAA58AB0071FB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +42,8 @@
 		32C936891AAA58AB0071FB94 /* WordCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C9368E1AAA58AB0071FB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C9368F1AAA58AB0071FB94 /* WordCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCloudTests.swift; sourceTree = "<group>"; };
-		FB1355281AB4F9750096777F /* giffffr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giffffr.gif; path = "../../WordCloud＿Pickerview/giffffr.gif"; sourceTree = "<group>"; };
-		FB1355291AB4F9750096777F /* SongGuessLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SongGuessLogo.png; path = "../../WordCloud＿Pickerview/SongGuessLogo.png"; sourceTree = "<group>"; };
-		FB13552C1AB4FB820096777F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../bg.jpg; sourceTree = "<group>"; };
-		FB13552E1AB500670096777F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		FB1355281AB4F9750096777F /* giffffr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giffffr.gif; path = ../giffffr.gif; sourceTree = "<group>"; };
+		FB1355291AB4F9750096777F /* SongGuessLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SongGuessLogo.png; path = ../SongGuessLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 		32C936761AAA58AB0071FB94 /* WordCloud */ = {
 			isa = PBXGroup;
 			children = (
-				FB13552E1AB500670096777F /* icon.png */,
-				FB13552C1AB4FB820096777F /* bg.jpg */,
+				3237F7FA1AB85F7F00A1D330 /* icon.png */,
+				3237F7FD1AB85F8700A1D330 /* bg.jpg */,
 				FB1355281AB4F9750096777F /* giffffr.gif */,
 				FB1355291AB4F9750096777F /* SongGuessLogo.png */,
 				32C936791AAA58AB0071FB94 /* AppDelegate.swift */,
@@ -205,11 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C9367F1AAA58AB0071FB94 /* Main.storyboard in Resources */,
-				FB13552F1AB500670096777F /* icon.png in Resources */,
+				3237F7F81AB85F7F00A1D330 /* icon.png in Resources */,
 				FB13552A1AB4F9750096777F /* giffffr.gif in Resources */,
 				32C936841AAA58AB0071FB94 /* LaunchScreen.xib in Resources */,
 				32C936811AAA58AB0071FB94 /* Images.xcassets in Resources */,
-				FB13552D1AB4FB820096777F /* bg.jpg in Resources */,
+				3237F7FB1AB85F8700A1D330 /* bg.jpg in Resources */,
 				FB13552B1AB4F9750096777F /* SongGuessLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +252,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3237F7FA1AB85F7F00A1D330 /* icon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3237F7F91AB85F7F00A1D330 /* en */,
+			);
+			name = icon.png;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3237F7FD1AB85F8700A1D330 /* bg.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3237F7FC1AB85F8700A1D330 /* en */,
+			);
+			name = bg.jpg;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		32C9367D1AAA58AB0071FB94 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
